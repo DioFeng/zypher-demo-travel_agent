@@ -10,7 +10,6 @@ Create a `.env` file in the project root with the following variables:
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
 
-### Optional (for enhanced functionality)
 ```bash
 # Firecrawl API Key (for web scraping travel sites)
 FIRECRAWL_API_KEY=your_firecrawl_api_key_here
@@ -44,12 +43,18 @@ NOTION_TOKEN=your_notion_integration_token_here
 
 ## Quick Start
 
+Open your terminal and go to the corresponding directory
+```bash
+cd travel_agent
+```
+
 1. **Set up environment variables** (see above)
-2. **Start the application**:
+2. **Check all dependencies are installed**
+3. **Start the application**:
    ```bash
    deno task dev
    ```
-3. **Open your browser** to `http://localhost:8000`
+4. **Open your browser** to `http://localhost:8000`
 
 ## Features Available
 
@@ -71,27 +76,6 @@ NOTION_TOKEN=your_notion_integration_token_here
 - ✅ Collaborative planning capabilities
 - ✅ Easy sharing and organization
 
-## Troubleshooting
-
-### "Environment variable not set" error
-- Make sure your `.env` file is in the project root
-- Check that variable names match exactly (case-sensitive)
-- Ensure no extra spaces around the `=` sign
-
-### "Failed to generate travel plans"
-- Verify your ANTHROPIC_API_KEY is valid
-- Check that you have sufficient API credits
-- Look at the browser console for detailed error messages
-
-### Notion integration not working
-- Ensure your NOTION_TOKEN is correct
-- Make sure you've shared your Notion workspace with the integration
-- Check that the integration has the necessary permissions
-
-### Firecrawl not working
-- Verify your FIRECRAWL_API_KEY is valid
-- Check your Firecrawl account usage limits
-- The app will work without Firecrawl, just with simulated data
 
 ## Example .env File
 
