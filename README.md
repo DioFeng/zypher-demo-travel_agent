@@ -20,20 +20,21 @@ NOTION_TOKEN=your_notion_integration_token_here
 
 ## How to Get API Keys
 
-### 1. Anthropic API Key (Required)
+### 1. Anthropic API Key
 1. Go to [Anthropic Console](https://console.anthropic.com/)
 2. Sign up or log in
 3. Navigate to API Keys section
 4. Create a new API key
 5. Copy the key to your `.env` file
 
-### 2. Firecrawl API Key (Optional)
+### 2. Firecrawl API Key
 1. Go to [Firecrawl](https://firecrawl.dev/)
 2. Sign up for an account
 3. Get your API key from the dashboard
 4. Add it to your `.env` file
 
-### 3. Notion Integration Token (Optional)
+### 3. Notion Integration Token
+(Guide to setup https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file)
 1. Go to [Notion Integrations](https://www.notion.so/my-integrations)
 2. Click "New integration"
 3. Give it a name like "Travel Planner"
